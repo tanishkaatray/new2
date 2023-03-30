@@ -1,0 +1,36 @@
+<html>
+<head>
+<title> form </title>
+</head>
+<body>
+<h1> FEEDBACK form </h1>
+<form method="post" action="profile.html" autocomplete="off">
+<label> username: </label>
+<input type=text name=uname size=40 placeholder="enter username"/> <br>
+<label> password: </label>
+<input type=password name=pass placeholder="enter password"/> <br>
+<label> gender: </label>
+<input type=radio name=gender value="m"/> male
+<input type=radio name=gender value="f"/> female
+ <br>
+<label> what do you like the most about product? </label>
+<input type=checkbox name=likes value="Quality"/> Quality
+<input type=checkbox name=likes value="colour"/> color
+<br>
+<label> ratings: </label>
+<select name=rating>
+  <option value="default"></option>
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+ <option value="4">4</option>
+ <option value="5">5</option>
+</select>
+</br>
+<label> your reviews </label>
+<textarea name=comments rows=5 cols=50 placeholder="any comments...."></textarea>
+<br>
+<input type=submit value="submit" />
+</form>
+</body>
+</html>
